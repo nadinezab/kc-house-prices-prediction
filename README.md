@@ -3,8 +3,10 @@
 This multivariate linear regression project was completed as part of Flatiron School's Data Science Bootcamp (Module 2 Final Project).
 
 ## Problem statement
-In April 2020, estate agent ABC commisions a research project regarding the sales of houses in King County to help shape a targeted campaign. The company approaches consultancy XYZ to provide data-driven insights into the factors which influence the house price and built a linear regression model which can accurately predict the sale price of a house in the area.
 
+In April 2020, estate agent ABC commisions a research project investigating house sales in King County to help shape a future targeted campaign. 
+
+The project seeks to provide data-driven insights into the factors which influence the house price and presents a linear regression model which can accurately predict the sale price of a house in the area.
 
 ## Components
 
