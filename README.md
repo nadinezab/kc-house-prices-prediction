@@ -47,16 +47,14 @@ A [blog post](TBD) was created as part of this project.
 * Seaborn version: 0.9.0
 * Pandas version: 0.25.1
 * Numpy version: 1.16.5
-* Statsmodels
-* Sklearn
-* Bokeh
-* Folium
-* Geopandas
-* Geopy
+* Statsmodels version: 0.10.1
+* Scikit-learn version: 0.21.2  
+* Bokeh version: 2.0.2 
+* Folium version: 0.9.1 
+* Geopandas version: 0.7.0
+* Geopy version: 1.21.0 
 * Reverse_geocoder version: 1.5.1
-* Pickle
-* Json
-* Itertools
+* Pickleshare version: 0.7.5 
 
 ## To get started
 
