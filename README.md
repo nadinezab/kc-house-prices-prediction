@@ -24,7 +24,7 @@ Understanding seasonal trends will influence when the campaign should be launche
 
 * **Jupyter Notebook**
 
-The [Jupyter Notebook](TBD) is our key deliverable and contains details of our approach and methodology, data cleaning, exploratory data analysis and model building and validation.
+The [Jupyter Notebook](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/kc-house-prices.ipynb) is our key deliverable and contains details of our approach and methodology, data cleaning, exploratory data analysis and model building and validation.
 
 I recommend using [nbviewer](https://nbviewer.jupyter.org/) to view the Jupyter Notebook.
 
@@ -40,16 +40,23 @@ The dataset can be found in the file *"kc_house_data.csv"*, in this repository. 
 
 A [blog post](TBD) was created as part of this project.
 
-## Technologies
+## Technologies/ Packages
 
 * Python version: 3.6.9
 * Matplotlib version: 3.1.3
 * Seaborn version: 0.9.0
 * Pandas version: 0.25.1
 * Numpy version: 1.16.5
-* BeautifulSoup version: 4.8.0
-* WordCloud version: 1.6.0
-
+* Statsmodels
+* Sklearn
+* Bokeh
+* Folium
+* Geopandas
+* Geopy
+* Reverse_geocoder version: 1.5.1
+* Pickle
+* Json
+* Itertools
 
 ## To get started
 
@@ -66,7 +73,7 @@ A [blog post](TBD) was created as part of this project.
 * We recommend focusing the campaign on the following neighbourhoods: Medina, Clyde Hill and Mercer Island (the most expensive neighbourhoods).
 * Location within King County is important with a noticeable disparity amongst zipcodes. The median house price ranges from $235,000 in 98002 up to $1,260,000 in 98039.
 
-![Median House Prices per Zipcode](Q1map.jpg)
+<img src="Q1map.jpg" alt="Median House Prices per Zipcode" width = "200">
 
 **Q2 House attributes**
 
@@ -86,6 +93,21 @@ A [blog post](TBD) was created as part of this project.
 ![Countplot of Sale Month](q3salemonth.jpg)
 
 ## Model
+
+**Model A**
+
+* 17 features
+* Adjusted  𝑅2  of 0.701 (70% of variations explained by our model)
+* Uses zip code tiers instead of actual zipcodes
+* Better for generalising to other areas
+* RMSE of 132,444 (with 10-fold cross valuation)
+
+**Model B**
+
+* 87 features
+* No interacting terms or polynomials
+* Adjusted  𝑅2  of 0.832 (83% of variations explained by our model)
+* RMSE of 99,654 (with 10-fold cross valuation)
 
 ## Contributors:
 
