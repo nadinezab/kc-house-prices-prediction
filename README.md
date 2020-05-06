@@ -75,7 +75,7 @@ A [blog post](TBD) was created as part of this project.
 * The median house price increases with grade indicating that these features are positively correlated. We suspect grade will be a good indicator of price.
 * For the campaign we would recommend looking at houses with a grade of 10 or above.
 
-![Boxplot of Grade Feature](Q2grade.jpg)
+![Boxplot of Grade Feature](q2grade.jpg)
 
 **Q3 Time of the year**
 
@@ -83,7 +83,7 @@ A [blog post](TBD) was created as part of this project.
 * April and May are the most popular months for house sales. In contrast, January and February have the lowest number of sales Q2 alone accounts for 31.3% of house sales.
 * We would recommend launching the campaign in March/April, to gather interest with a view of completing the sale in Q2.
 
-![Countplot of Sale Month](Q3salemonth.jpg)
+![Countplot of Sale Month](q3salemonth.jpg)
 
 ## Model
 
