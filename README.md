@@ -73,7 +73,7 @@ A [blog post](TBD) was created as part of this project.
 * We recommend focusing the campaign on the following neighbourhoods: Medina, Clyde Hill and Mercer Island (the most expensive neighbourhoods).
 * Location within King County is important with a noticeable disparity amongst zipcodes. The median house price ranges from $235,000 in 98002 up to $1,260,000 in 98039.
 
-<img src="Q1map.jpg" alt="Median House Prices per Zipcode" width = "200">
+<img src="Q1map.jpg" alt="Median House Prices per Zipcode" width = "400">
 
 **Q2 House attributes**
 
