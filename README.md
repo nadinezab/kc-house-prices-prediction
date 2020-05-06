@@ -4,9 +4,21 @@ This multivariate linear regression project was completed as part of Flatiron Sc
 
 ## Problem statement
 
-In April 2020, estate agent ABC commisions a research project investigating house sales in King County to help shape a future targeted campaign. 
+As a junior data scientist at real estate company PropertiesInc., I have been tasked with investigating house sales in the King County area and building a model to predict the sale price. Key executives are keen to launch an advertising campaign directed towards home owners in that area who might consider selling their house, focusing on higher-end residential properties.
 
-The project seeks to provide data-driven insights into the factors which influence the house price and presents a linear regression model which can accurately predict the sale price of a house in the area.
+Before building the model, we will address the following descriptive questions through data exploration:
+
+1. Which locations within the King County area have the highest average house prices?
+
+Understanding what locations to focus the advertising campaign on is key for our stakeholders.
+
+2. Which house attributes increase sale price?
+
+Understanding home buyers' preferences can focus our campaign and help us guide clients willing to undertake renovations prior to selling.
+
+3. Does time of the year have an impact on house sales?
+
+Understanding seasonal trends will influence when the campaign should be launched.
 
 ## Components
 
@@ -47,6 +59,31 @@ A [blog post](TBD) was created as part of this project.
 
 
 ## Summary of EDA
+
+**Q1 Location**
+
+* Waterfront living is key, with the median house price for a house with a waterfront view being almost double that of one that does not have this feature.
+* We recommend focusing the campaign on the following neighbourhoods: Medina, Clyde Hill and Mercer Island (the most expensive neighbourhoods).
+* Location within King County is important with a noticeable disparity amongst zipcodes. The median house price ranges from $235,000 in 98002 up to $1,260,000 in 98039.
+
+![Median House Prices per Zipcode](Q1map.jpg)
+
+**Q2 House attributes**
+
+* We recommend targetting the campaign towards houses with a higher bedroom count. However for a given house depending on its square-footage, note that adding an additional bedroom does not necessarily result in a a sale price increase.
+* There does not appear to be a clear relationship between the ratio sqft_living/sqft_lot and price. This indicates that there is unlikely to be an idea area to allocate to living space within a plot.
+* The median house price increases with grade indicating that these features are positively correlated. We suspect grade will be a good indicator of price.
+* For the campaign we would recommend looking at houses with a grade of 10 or above.
+
+![Boxplot of Grade Feature](Q2grade.jpg)
+
+**Q3 Time of the year**
+
+* House prices do not appear to be affected by sale month or quarter, with the median house price being almost constant throughout the year.
+* April and May are the most popular months for house sales. In contrast, January and February have the lowest number of sales Q2 alone accounts for 31.3% of house sales.
+* We would recommend launching the campaign in March/April, to gather interest with a view of completing the sale in Q2.
+
+![Countplot of Sale Month](Q3salemonth.jpg)
 
 ## Model
 
