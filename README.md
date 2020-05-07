@@ -98,14 +98,14 @@ A [blog post](TBD) was created as part of this project.
 * Adjusted  𝑅2  of 0.701 (70% of variations explained by our model)
 * Uses zip code tiers instead of actual zipcodes
 * Better for generalising to other areas
-* RMSE of 132,444 (with 10-fold cross valuation)
+* RMSE of 132,444 (with 10-fold cross-validation)
 
 **Model B**
 
 * 87 features
 * No interacting terms or polynomials
 * Adjusted  𝑅2  of 0.832 (83% of variations explained by our model)
-* RMSE of 99,654 (with 10-fold cross valuation)
+* RMSE of 99,654 (with 10-fold cross-validation)
 
 ## Contributors:
 
