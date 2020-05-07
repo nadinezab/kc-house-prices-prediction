@@ -71,7 +71,7 @@ A [blog post](https://towardsdatascience.com/creating-a-map-of-house-sales-42ba1
 * We recommend focusing the campaign on the following neighbourhoods: Medina, Clyde Hill and Mercer Island (the most expensive neighbourhoods).
 * Location within King County is important with a noticeable disparity amongst zipcodes. The median house price ranges from $235,000 in 98002 up to $1,260,000 in 98039.
 
-<img src="q1map.png" alt="Median House Prices per Zipcode" width = "400">
+<img src="/Images/q1map.png" alt="Median House Prices per Zipcode" width = "400">
 
 **Q2 House attributes**
 
@@ -80,7 +80,7 @@ A [blog post](https://towardsdatascience.com/creating-a-map-of-house-sales-42ba1
 * The median house price increases with grade indicating that these features are positively correlated. We suspect grade will be a good indicator of price.
 * For the campaign we would recommend looking at houses with a grade of 10 or above.
 
-![Median Price per Grade](q2grade.png)
+![Median Price per Grade](/Images/q2grade.png)
 
 **Q3 Time of the year**
 
@@ -88,7 +88,7 @@ A [blog post](https://towardsdatascience.com/creating-a-map-of-house-sales-42ba1
 * April and May are the most popular months for house sales. In contrast, January and February have the lowest number of sales Q2 alone accounts for 31.3% of house sales.
 * We would recommend launching the campaign in March/April, to gather interest with a view of completing the sale in Q2.
 
-![Number of sales per month](q3salemonth.png)
+![Number of sales per month](/Images/q3salemonth.png)
 
 ## Model
 
