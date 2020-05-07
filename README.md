@@ -30,7 +30,7 @@ I recommend using [nbviewer](https://nbviewer.jupyter.org/) to view the Jupyter 
 
 * **Presentation**
 
-The presentation gives a high-level overview of our approach, findings and recommendations for non-technical stakeholders. It is aimed to be between 5 and 10 minutes long. There are two files, [with](TBD) and [without](TBD) presenter notes.
+The presentation gives a high-level overview of our approach, findings and recommendations for non-technical stakeholders. It is aimed to be between 5 and 10 minutes long. There are two files, [with](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/Presentation_with_notes.pdf) and [without](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/Presentation.pdf) presenter notes.
 
 * **Data**
 
@@ -38,7 +38,7 @@ The dataset can be found in the file *"kc_house_data.csv"*, in this repository. 
 
 * **Blog Post**
 
-A [blog post](TBD) was created as part of this project.
+A [blog post](https://towardsdatascience.com/creating-a-map-of-house-sales-42ba1f2c4e7e?source=friends_link&sk=39a274886a862dc1258f4d97f8392391) was created as part of this project.
 
 ## Technologies/ Packages
 
