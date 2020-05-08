@@ -24,7 +24,7 @@ Understanding seasonal trends will influence when the campaign should be launche
 
 * **Jupyter Notebook**
 
-The [Jupyter Notebook](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/kc-house-prices.ipynb) is our key deliverable and contains details of our approach and methodology, data cleaning, exploratory data analysis and model building and validation.
+The [Jupyter Notebook](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/kc-house-prices.ipynb) is our key deliverable and contains details of our approach and methodology, data cleaning, exploratory data analysis and model building and validation. The key models have also been saved using Pickle.
 
 I recommend using [nbviewer](https://nbviewer.jupyter.org/) to view the Jupyter Notebook.
 
@@ -34,7 +34,11 @@ The presentation gives a high-level overview of our approach, findings and recom
 
 * **Data**
 
-The dataset can be found in the file *"kc_house_data.csv"*, in this repository. It was originally provided in the following [repository](https://github.com/learn-co-students/dsc-mod-2-project-v2-1-onl01-dtsc-pt-012120).
+The dataset can be found in the file *"kc_house_data.csv"* in the Data folder, in this repository. It was originally provided in the following [repository](https://github.com/learn-co-students/dsc-mod-2-project-v2-1-onl01-dtsc-pt-012120). 
+
+* **Misc**
+
+We found a GEOJSON file with zip code borders, which was used as part of data exploration. It is included in the repository.
 
 * **Blog Post**
 
@@ -90,22 +94,27 @@ A [blog post](https://towardsdatascience.com/creating-a-map-of-house-sales-42ba1
 
 ![Number of sales per month](/Images/q3salemonth.png)
 
-## Model
+## Final model details
 
 **Model A**
 
 * 17 features
-* Adjusted  𝑅2  of 0.701 (70% of variations explained by our model)
+* Adjusted  R-squared  of 0.701 (70% of variations explained by our model)
 * Uses zip code tiers instead of actual zipcodes
 * Better for generalising to other areas
-* RMSE of 132,444 (with 10-fold cross-validation)
+* RMSE of 132,444 (mean RMSE with 10-fold cross-validation)
 
 **Model B**
 
 * 87 features
 * No interacting terms or polynomials
-* Adjusted  𝑅2  of 0.832 (83% of variations explained by our model)
-* RMSE of 99,654 (with 10-fold cross-validation)
+* Adjusted R-squared  of 0.832 (83% of variations explained by our model)
+* RMSE of 99,654 (mean RMSE with 10-fold cross-validation)
+
+**Interpreting Model coefficients**
+- A grade 12 house on average is worth USD 52,000 more than grade 11 (model A)
+- Being on the waterfront is valued at USD 277,442 (model A)
+- For every additional squarefoot of living space, the price inscreases by USD 123.5 (model B)
 
 ## Contributors:
 
