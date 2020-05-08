@@ -10,15 +10,9 @@ Before building the model, we will address the following descriptive questions t
 
 1. Which locations within the King County area have the highest average house prices?
 
-Understanding what locations to focus the advertising campaign on is key for our stakeholders.
-
 2. Which house attributes increase sale price?
 
-Understanding home buyers' preferences can focus our campaign and help us guide clients willing to undertake renovations prior to selling.
-
 3. Does time of the year have an impact on house sales?
-
-Understanding seasonal trends will influence when the campaign should be launched.
 
 ## Components
 
