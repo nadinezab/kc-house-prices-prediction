@@ -1,10 +1,10 @@
 # Predicting House Prices in King County
 
-This multivariate linear regression project was completed as part of Flatiron School's Data Science Bootcamp (Module 2 Final Project).
+This multiple linear regression project was completed as part of Flatiron School's Data Science Bootcamp (Module 2 Final Project).
 
 ## Problem statement
 
-As a junior data scientist at real estate company PropertiesInc., I have been tasked with investigating house sales in the King County area and building a model to predict the sale price. Key executives are keen to launch an advertising campaign directed towards home owners in that area who might consider selling their house, focusing on higher-end residential properties.
+As a junior data scientist at real estate company PropertiesInc., I have been tasked with investigating house sales in the King County area and building a model to predict sale price. Key executives are keen to launch an advertising campaign directed towards home owners in that area who might consider selling their house, focusing on higher-end residential properties.
 
 Before building the model, we will address the following descriptive questions through data exploration:
 
@@ -24,7 +24,7 @@ I recommend using [nbviewer](https://nbviewer.jupyter.org/) to view the Jupyter 
 
 * **Presentation**
 
-The presentation gives a high-level overview of our approach, findings and recommendations for non-technical stakeholders. It is aimed to be between 5 and 10 minutes long. There are two files, [with](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/Presentation_with_notes.pdf) and [without](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/Presentation.pdf) presenter notes.
+The [presentation](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/Presentation.pdf) gives a high-level overview of our approach, findings and recommendations for non-technical stakeholders. It is aimed to be between 5 and 10 minutes long.
 
 * **Data**
 
