@@ -4,7 +4,7 @@ This project has been forked from the git repository of Nadine Amersi-Belton a.k
 
 ## Problem statement
 
- Investigating house sales in the King County area and building a model to predict sale price. Key executives are keen to launch an advertising campaign directed towards home owners in that area who might consider selling their house, focusing on higher-end residential properties.
+ Investigating house sales in the King County area and building a model to predict sale price. Key executives are keen to launch an advertising campaign directed towards home owners in that area who might consider selling their house, focusing on hcoigher-end residential properties.
 
 ## Components
 
