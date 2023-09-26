@@ -1,6 +1,10 @@
 # Predicting House Prices in King County
 
-This project has been forked from the git repository of Nadine Amersi-Belton a.k.a. [nadinezab](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/kc-house-prices.ipynb) to be re-tuned, while the original project offered only a Multi-Linear regression as a solution this current projects applied several models to address.    
+This project has been forked from the git repository of Nadine Amersi-Belton a.k.a. [nadinezab](https://github.com/nadinezab/kc-house-prices-prediction/blob/master/kc-house-prices.ipynb) to be re-tuned, while the original project offered only a Multi-Linear regression as a solution this current projects applied several models to address.
+
+I is worth mentioning that the regression model selection was greatly influenced by [this Keggle notebook](https://www.kaggle.com/code/junkal/selecting-the-best-regression-model)
+
+Another key difference is that the original project did a train/test split prior to the exploratory analysis and outlier removal which is a poor practice, as it should be done [just before modeling](https://datascience.stackexchange.com/questions/75702/when-should-you-remove-outliers)
 
 ## Problem statement
 
